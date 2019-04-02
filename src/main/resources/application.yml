@@ -1,0 +1,13 @@
+spring:
+  freemarker:
+    cache: false
+    enabled: true
+    template-loader-path: classpath:/templates/
+    expose-request-attributes: true
+    expose-spring-macro-helpers: true
+
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: ksk1004zz
+    password: rlatkd11

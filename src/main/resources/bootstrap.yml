@@ -1,0 +1,16 @@
+server:
+  port: 8083
+
+spring:
+  application:
+    name: application
+
+  cloud:
+    config:
+      uri: http://localhost:8080
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
